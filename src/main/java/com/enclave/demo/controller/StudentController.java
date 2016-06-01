@@ -50,6 +50,7 @@ public class StudentController {
         return "login";
     }
 
+    @RequestMapping(value="/login", method=RequestMethod.POST)
     public String login(@Valid @ModelAttribute("studentLogin") StudentLogin studentLogin, BindingResult result) {
         if (result.hasErrors()) {
             return "login";
