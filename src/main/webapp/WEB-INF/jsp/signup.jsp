@@ -154,7 +154,7 @@
                                     <div class="date form_date col-lg-9" data-date-format="mm/dd/yyyy" data-date-viewmode="years">
                                         <form:input type="text" class="form-control"                                            
                                             path="dateOfBirth" id="dateOfBirthInput"
-                                            placeholder="Date of Birth" />
+                                            placeholder="mm/dd/yyyy" />
                                         <form:errors path="dateOfBirth" cssClass="error" />
                                     </div>
                                 </div>
